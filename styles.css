@@ -1,0 +1,136 @@
+
+:root {
+    --background-general: #FFEAD0;
+    --background-secondary: #FFDEB4;
+    --background-header: #FDEBD5;
+    --button-background: #FFC68C;
+    --text-green: #4CCE7B;
+    --figure-background: #F6A049;
+}
+
+@font-face {
+    font-family: Itim;
+    src: url(./fonts/Itim-Regular.ttf);
+}
+
+@font-face {
+    font-family: AlegreyaSans;
+    src: url(./fonts/AlegreyaSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: AlegreyaSansBold;
+    src: url(./fonts/AlegreyaSans-Bold.ttf);
+}
+
+/* -------------------------------------------------- */
+
+* {
+    background-color: var(--background-general);
+    font-family: AlegreyaSans;
+    margin: 0;
+}
+
+header * {
+    background-color: var(--background-header);
+    font-family: Itim;
+    margin: 0 20px;
+}
+
+header {
+    background-color: var(--background-header);
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.25);
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.welcome-sect {
+    width: 55%;
+}
+
+.welcome-sect span {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.welcome-sect span div {
+    flex: 2;
+}
+
+.welcome-sect span img {
+    flex: 1;
+}
+
+/* -------------------------------------------------- */
+
+h1 {
+    color: var(--text-green);
+    text-shadow: -1px 0 black, 1px 0 black, 0px -1px black, 0 1px black;
+    font-size: 48px;
+    font-family: Itim;
+}
+
+h2 {
+    color: var(--text-green);
+    text-shadow: -1px 0 black, 1px 0 black, 0px -1px black, 0 1px black;
+    font-size: 40px;
+    font-family: Itim;
+}
+
+h3 {
+    font-family: AlegreyaSansBold;
+    color: var(--text-green);
+    text-shadow: -1px 0 black, 1px 0 black, 0px -1px black, 0 1px black;
+    font-size: 64px;
+    letter-spacing: 0.25em;
+}
+
+h4 {
+    font-family: AlegreyaSansBold;
+    font-size: 60px;
+    letter-spacing: 0.13em;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+button {
+    border-radius: 50px;
+    font-size: 60px;
+    background-color: var(--button-background);
+    border: 4px solid white;
+    width: 250px;
+}
+
+/* -------------------------------------------------- */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
