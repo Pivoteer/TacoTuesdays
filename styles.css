@@ -54,24 +54,29 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    ;
 }
 
 .welcome-sect span {
     display: flex;
     justify-content: center;
     width: 100%;
+    
 }
 
 .welcome-sect span div {
     flex: 2;
+    
 }
 
 .welcome-sect span div * {
     margin: 20px 0;
+    
 }
 
 .welcome-sect span img {
     flex: 1;
+    margin-top: 100px ;
 }
 
 .benefits-sect {
@@ -135,6 +140,15 @@ article p {
     font-size: 25px;
 }
 
+.welcomeimg {
+    border-radius: 45%;
+    border: 5px solid black;
+}
+
+.benefitsimg {
+    border-radius: 100%;
+    border: 3px solid white;
+}
 /* -------------------------------------------------- */
 
 h1 {
@@ -178,6 +192,7 @@ button {
     border: 4px solid white;
     width: 250px;
 }
+
 
 /* -------------------------------------------------- */
 
